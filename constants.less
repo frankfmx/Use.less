@@ -1,8 +1,9 @@
 //-------------     css-specific constants, for the purpose of shortening typing, avoiding typos and preserving consistency---------------------------------//
 
+//notice method and variable doubles: @caps vs .caps();
 //---
 @caps: capitalize;
-@upr: uppercase;
+@uppr: uppercase;
 @lwr: lowercase;
 @jst: justify;
 //
@@ -31,6 +32,10 @@
 .inblock(){display: inline-block;}
 .inline(){display: inline;}
 .intab(){display: inline-table;}
+.caps(){text-transform: capitalize;}
+.uppr(){text-transform: uppercase;}
+.lwr(){text-transform: lowercase;}
+.small-caps(){font-variant: small-caps;}
 //
 @t: top;
 @l: left;
@@ -38,3 +43,6 @@
 @r: right;
 @m: middle;
 @c: center;
+//
+.fullh(){height: 100%;}
+.fullw(){width: 100%;}
